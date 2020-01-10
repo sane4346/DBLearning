@@ -10,10 +10,6 @@
 		AA0265F423C88F8B00596216 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265F323C88F8B00596216 /* HomeTableViewCell.swift */; };
 		AA0265F623C8979E00596216 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265F523C8979E00596216 /* StudentTableViewController.swift */; };
 		AA0265F823C89BD900596216 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265F723C89BD900596216 /* StudentTableViewCell.swift */; };
-		AA0265FF23C8A3EB00596216 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265FB23C8A3EB00596216 /* Student+CoreDataClass.swift */; };
-		AA02660023C8A3EB00596216 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265FC23C8A3EB00596216 /* Student+CoreDataProperties.swift */; };
-		AA02660123C8A3EB00596216 /* Classes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265FD23C8A3EB00596216 /* Classes+CoreDataClass.swift */; };
-		AA02660223C8A3EB00596216 /* Classes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0265FE23C8A3EB00596216 /* Classes+CoreDataProperties.swift */; };
 		AA9C8C3223C76D99001DEDC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C8C3123C76D99001DEDC6 /* AppDelegate.swift */; };
 		AA9C8C3423C76D99001DEDC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C8C3323C76D99001DEDC6 /* SceneDelegate.swift */; };
 		AA9C8C3623C76D99001DEDC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C8C3523C76D99001DEDC6 /* HomeViewController.swift */; };
@@ -27,10 +23,6 @@
 		AA0265F323C88F8B00596216 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		AA0265F523C8979E00596216 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 		AA0265F723C89BD900596216 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
-		AA0265FB23C8A3EB00596216 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AA0265FC23C8A3EB00596216 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AA0265FD23C8A3EB00596216 /* Classes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AA0265FE23C8A3EB00596216 /* Classes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA9C8C2E23C76D99001DEDC6 /* CoreDataBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9C8C3123C76D99001DEDC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9C8C3323C76D99001DEDC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,21 +63,9 @@
 			path = StudentViewControllers;
 			sourceTree = "<group>";
 		};
-		AA02660323C8A45100596216 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AA0265FB23C8A3EB00596216 /* Student+CoreDataClass.swift */,
-				AA0265FC23C8A3EB00596216 /* Student+CoreDataProperties.swift */,
-				AA0265FD23C8A3EB00596216 /* Classes+CoreDataClass.swift */,
-				AA0265FE23C8A3EB00596216 /* Classes+CoreDataProperties.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		AA9C8C2523C76D99001DEDC6 = {
 			isa = PBXGroup;
 			children = (
-				AA02660323C8A45100596216 /* Model */,
 				AA9C8C3023C76D99001DEDC6 /* CoreDataBasics */,
 				AA9C8C2F23C76D99001DEDC6 /* Products */,
 			);
@@ -187,14 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9C8C3623C76D99001DEDC6 /* HomeViewController.swift in Sources */,
-				AA0265FF23C8A3EB00596216 /* Student+CoreDataClass.swift in Sources */,
-				AA02660123C8A3EB00596216 /* Classes+CoreDataClass.swift in Sources */,
 				AA0265F423C88F8B00596216 /* HomeTableViewCell.swift in Sources */,
 				AA0265F623C8979E00596216 /* StudentTableViewController.swift in Sources */,
 				AA9C8C3223C76D99001DEDC6 /* AppDelegate.swift in Sources */,
 				AA0265F823C89BD900596216 /* StudentTableViewCell.swift in Sources */,
-				AA02660023C8A3EB00596216 /* Student+CoreDataProperties.swift in Sources */,
-				AA02660223C8A3EB00596216 /* Classes+CoreDataProperties.swift in Sources */,
 				AA9C8C3423C76D99001DEDC6 /* SceneDelegate.swift in Sources */,
 				AAF5338823C85830007F0AA7 /* CoreDataBasics.xcdatamodeld in Sources */,
 			);
